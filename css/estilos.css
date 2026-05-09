@@ -1,0 +1,101 @@
+/*Etiquetas Semánticas:*/
+
+body {
+    background-image: url("../img/fondo.png");
+    
+}
+
+header {
+    background-color: #AA8F68;
+}
+
+main {
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2% 5%;
+}
+
+footer {
+    background-color: #637480;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+hr {
+    background-color: transparent;
+    border: 0;
+    height: 0;
+}
+
+footer, header {
+    border-radius: 16px;
+}
+
+main h1, main h3, header h1, footer, nav {
+    text-align: center;
+}
+
+main p {
+    text-align: justify;
+}
+
+/*-----------NAV---------------*/
+
+nav {
+	background-color: #FFB347;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+nav li {
+	display: inline-block;
+    padding-left: 1%;
+    padding-right: 1%;	
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav a:link {
+	background-color:  #FFB347;
+	color: #000;
+}
+nav a:visited {
+	background-color: #FFB347;
+	color: #000;
+}
+nav a:hover {
+	background-color: #000;
+	color: #FFF;
+}
+nav a:active {
+	background-color: #47B5FF;
+	color: #000;
+}
+
+/*-----------------------------*/
+
+
+/*Clases*/
+
+.imgHorizontales {
+    width: 100%;
+    height: auto;
+}
+
+.cita {
+    color: gray;
+    font-size: 0.9rem;
+}
+
+.textoCentrado {
+    text-align: center;
+}
